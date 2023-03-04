@@ -1,0 +1,76 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --darkcolor: rgb(31, 46, 61);
+    --lightcolor: rgb(155, 208, 191);
+    --white: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--darkcolor);
+    border-top: 3px solid var(--lightcolor);
+}
+
+header h1 {
+    background-color: var(--lightcolor);
+    margin-left: 0;
+    padding: 15px;
+    padding-left: 50px;
+    color: var(--darkcolor)
+}
+
+header nav {
+    padding-right: 50px;
+    font-size:large;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--lightcolor);
+    padding: 0 5px;
+    border-bottom: 5px solid var(--lightcolor);
+}
+
+.banner-section {
+    position: relative;
+    height: 250px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.banner-section div {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    background-color: var(--lightcolor);
+    width: 300px;
+    text-align: center;
+    padding: 0;
+}
+
+.banner-section h2 {
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: var(--darkcolor);
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
