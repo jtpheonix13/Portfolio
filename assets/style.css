@@ -6,6 +6,7 @@
     --darkcolor: rgb(31, 46, 61);
     --lightcolor: rgb(155, 208, 191);
     --white: white;
+    --textcolor: rgb(44, 117, 145);
 }
 
 body {
@@ -68,7 +69,26 @@ header nav a {
     font-size: 1.6rem;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    color: var(--textcolor);
+}
 
+.about-me {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.about-me h3 {
+    border-right: 3px solid var(--textcolor);
+    width: 25%;
+    text-align:end;
+    padding-right: 15px;
+}
 
 
 
