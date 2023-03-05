@@ -126,6 +126,8 @@ header nav a {
     justify-content: stretch;
     align-content: stretch;
     width: 75%;
+    min-width: 0;
+    min-height: 0;
     margin: 50px 8px 50px 8px;
 }
 
@@ -143,7 +145,19 @@ header nav a {
     background-size: cover;
 }
 
-.refactor a {
+.portfolio {
+    position: relative;
+    background-image: url("images/portfolio.png");
+    background-size: cover;
+}
+
+.comingSoon{
+    position: relative;
+    background-image: url("images/comingsoon.jpg");
+    background-size: cover;
+
+}
+.refactor a, .portfolio a, .comingSoon a{
     position: absolute;
     right: -1;
     bottom: 10px;
@@ -195,3 +209,10 @@ footer a {
 
 /* Media Queries to help with the page display elements for smaller screens */
 
+@media  screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+
+}
